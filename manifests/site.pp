@@ -106,8 +106,8 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
-      'ag'
+      'gnu-tar',
+      'ag',
       'wget'
     ]:
   }
