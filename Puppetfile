@@ -59,3 +59,30 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+  github "skype",     "1.1.0"
+  github "dropbox",   "1.4.1"
+
+  # github "chrome",
+  # github "firefox",
+
+  # github "vlc",
+
+  # github "virtualbox",
+  # github "vagrant",
+
+  # github "clipmenu",
+  # github "spectacle",
+
+  # github "flux",
+
+  # github "charles",
+
+  # github "macvim",
+  # github "iterm2::stable",
+
+  # github "lastpass",
+
+  # github "pckeyboardhack",
+
+  # github "java",
