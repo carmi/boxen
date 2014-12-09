@@ -58,6 +58,34 @@ node default {
   include hub
   include nginx
 
+  # personal applications
+  include skype
+  include dropbox
+
+  include chrome
+  include firefox
+
+  include vlc
+
+  include virtualbox
+  include vagrant
+
+  include clipmenu
+  include spectacle
+
+  include flux
+
+  include charles
+
+  include macvim
+  include iterm2::stable
+
+  include lastpass
+
+  include pckeyboardhack
+
+  include java
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
@@ -79,6 +107,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar'
+      'ag'
+      'wget'
     ]:
   }
 
