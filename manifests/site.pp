@@ -80,6 +80,8 @@ node default {
   include macvim
   include iterm2::stable
 
+  include ohmyzsh
+
   include lastpass
 
   include pckeyboardhack
