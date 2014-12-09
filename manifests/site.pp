@@ -59,32 +59,30 @@ node default {
   include nginx
 
   # personal applications
-  #   include skype
-  #   include dropbox
-  # 
-  #   include chrome
-  #   include firefox
-  # 
-  #   include vlc
-  # 
-  #   include virtualbox
-  #   include vagrant
-  # 
-  #   include clipmenu
-  #   include spectacle
-  # 
-  #   include flux
-  # 
-  #   include charles
-  # 
-  #   include macvim
-  #   include iterm2::stable
-  # 
-  #   include lastpass
-  # 
-  #   include pckeyboardhack
-  # 
-  #   include java
+  include skype
+  include dropbox
+
+  include chrome
+  include firefox
+
+  include vlc
+
+  include virtualbox
+  include vagrant
+
+  include clipmenu
+  include spectacle
+
+  include flux
+
+  include charles
+
+  include macvim
+  include iterm2::stable
+
+  include lastpass
+
+  include pckeyboardhack
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
