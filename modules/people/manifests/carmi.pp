@@ -26,17 +26,4 @@ class people::carmi {
   include ohmyzsh
 
   include lastpass
-
-  $home     = "/Users/${::boxen_user}"
-  $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
-
-  file { $my:
-    ensure  => directory
-  }
-
-  repository { $dotfiles:
-    source => "${::github_user}/dotfiles-1",
-    require => File[$my]
-  }
 }
