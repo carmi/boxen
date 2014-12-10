@@ -27,13 +27,16 @@ class people::carmi {
 
   include lastpass
 
-  $home_dir = "/Users/${::boxen_user}"
-  $dotfiles_dir = "${home_dir}/dotfiles"
+  $home     = "/Users/${::boxen_user}"
+  $my       = "${home}/my"
+  $dotfiles = "${my}/dotfiles"
 
-  # dotfiles
-  repository { $people::carmi::dotfiles_dir:
-    source => "${::github_login}/dotfiles-1",
-    require => File[$people::carmi::my_dir],
+  file { $my:
+    ensure  => directory
   }
 
+  repository { $dotfiles:
+    source => "${::github_user}/dotfiles-1"
+    require => File[$my]
+  }
 }
