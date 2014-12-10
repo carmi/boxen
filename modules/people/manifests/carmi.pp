@@ -55,7 +55,7 @@ class people::carmi {
     provider => shell,
     command  => "./script/bootstrap",
     cwd      => $people::carmi::dotfiles_dir,
-    creates  => "${people::carmi::home_dir}/.zshrc",
+    creates  => "${people::carmi::home_dir}/.vimrc",
     require  => Repository[$people::carmi::dotfiles_dir],
   }
 }
