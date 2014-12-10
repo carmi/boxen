@@ -36,7 +36,7 @@ class people::carmi {
   }
 
   repository { $dotfiles:
-    source => "${::github_user}/dotfiles-1"
+    source => "${::github_user}/dotfiles-1",
     require => File[$my]
   }
 }
