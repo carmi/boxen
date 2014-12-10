@@ -76,6 +76,7 @@ github "spectacle", "1.0.0"
 github "flux",      "1.0.1"
 github "charles",   "1.0.4"
 github "macvim",    "1.0.0"
+github "vim",       "0.0.1", :repo => "jhaals/puppet-vim"
 github "iterm2",    "1.2.2"
 github "osx",       "2.8.0"
 

@@ -20,6 +20,7 @@ class people::carmi {
   include charles
 
   include macvim
+  include vim
   include iterm2::stable
 
   include zsh
