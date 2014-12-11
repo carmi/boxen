@@ -80,6 +80,8 @@ node default {
       'findutils',
       'gnu-tar',
       'ag',
+      'rbenv',
+      'ruby-build',
       'wget'
     ]:
   }

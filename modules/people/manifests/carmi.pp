@@ -20,7 +20,6 @@ class people::carmi {
   include charles
 
   include macvim
-  include vim
   include iterm2::stable
 
   include zsh
@@ -44,12 +43,4 @@ class people::carmi {
     source => "${::github_login}/dotfiles-1",
     require => File[$people::carmi::my_dir],
   }
-
-  #exec { "install dotfiles":
-  #  provider => shell,
-  #  command  => "./script/bootstrap",
-  #  cwd      => $people::carmi::dotfiles_dir,
-  #  creates  => "${people::carmi::home_dir}/.vimrc",
-  #  require  => Repository[$people::carmi::dotfiles_dir],
-  #}
 }
