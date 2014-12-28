@@ -26,6 +26,7 @@ class people::carmi {
   include ohmyzsh
 
   include lastpass
+  include adium
 
   $home_dir = "/Users/${::boxen_user}"
   $my_dir = "${boxen::config::srcdir}/my"

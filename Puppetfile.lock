@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
@@ -194,6 +199,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  adium (= 1.4.0)
   boxen (= 3.7.0)
   charles (= 1.0.4)
   chrome (= 1.2.0)
