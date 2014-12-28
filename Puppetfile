@@ -82,4 +82,3 @@ github "osx",       "2.8.0"
 github "adium",     "1.4.0"
 
 github "lastpass", "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
-github "java",      "1.7.1"
