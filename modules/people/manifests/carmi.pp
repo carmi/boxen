@@ -28,6 +28,8 @@ class people::carmi {
   include lastpass
   include adium
 
+  include heroku
+
   $home_dir = "/Users/${::boxen_user}"
   $my_dir = "${boxen::config::srcdir}/my"
   $dotfiles_dir = "${my_dir}/dotfiles"

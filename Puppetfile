@@ -81,4 +81,6 @@ github "iterm2",    "1.2.2"
 github "osx",       "2.8.0"
 github "adium",     "1.4.0"
 
+github "heroku",    "2.0.0"
+
 github "lastpass", "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
