@@ -28,7 +28,11 @@ class people::carmi {
   include lastpass
   include adium
 
+
   include heroku
+
+  # node versions
+  include nodejs
 
   $home_dir = "/Users/${::boxen_user}"
   $my_dir = "${boxen::config::srcdir}/my"

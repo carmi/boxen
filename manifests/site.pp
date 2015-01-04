@@ -91,3 +91,10 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+nodejs::module { 'coffee-script':
+  node_version => 'v0.10'
+}
+nodejs::module { 'meteorite':
+  node_version => 'v0.10'
+}
