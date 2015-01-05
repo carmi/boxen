@@ -11,6 +11,7 @@ class people::carmi {
 
   include virtualbox
   include vagrant
+  include docker
 
   include clipmenu
   include spectacle
