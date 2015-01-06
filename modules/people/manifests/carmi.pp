@@ -31,6 +31,7 @@ class people::carmi {
 
 
   include heroku
+  include mosh
 
   # node versions
   include nodejs

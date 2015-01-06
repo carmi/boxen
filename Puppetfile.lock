@@ -189,6 +189,11 @@ GITHUBTARBALL
     vim (0.0.1)
 
 GITHUBTARBALL
+  remote: pauloconnor/puppet-mosh
+  specs:
+    mosh (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -227,6 +232,7 @@ DEPENDENCIES
   lastpass (= 1.1.0)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
+  mosh (= 1.0.0)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   ohmyzsh (= 1.0.0)

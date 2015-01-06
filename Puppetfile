@@ -81,6 +81,7 @@ github "vim",       "0.0.1", :repo => "jhaals/puppet-vim"
 github "iterm2",    "1.2.2"
 github "osx",       "2.8.0"
 github "adium",     "1.4.0"
+github "mosh",      "1.0.0", :repo => "pauloconnor/puppet-mosh"
 
 github "heroku",    "2.0.0"
 
