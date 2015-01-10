@@ -30,6 +30,8 @@ class people::carmi {
   include adium
 
 
+  include tmux
+
   include heroku
   include mosh
 
